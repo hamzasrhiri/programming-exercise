@@ -1,4 +1,4 @@
-##MasterMind Game:
+## MasterMind Game:
 
 I chose to use string comparison to solve the problem.
 Each element is being compared with the input from the user, and if its correct we increment the counter by one. Same reasoning is used to find the correct number but in the wrong position.
