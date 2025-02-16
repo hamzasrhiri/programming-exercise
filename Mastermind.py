@@ -9,8 +9,8 @@ def random_num():
     return num
 
 def mastermind():
-    rand_num = [1,1,3,3]  # hardcode for testing
-    #rand_num = random_num() 
+    #rand_num = [1,1,3,3]  # hardcode for testing
+    rand_num = random_num() 
     count = 0 # for attempts
 
     while count < 10:
