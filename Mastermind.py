@@ -35,7 +35,7 @@ def mastermind():
 
         # check for wrong positions -
         for i in range(4):
-            if user_string[i] != rand_num_copy[i] and user_string[i] in rand_num_copy:
+            if user_string[i] in rand_num_copy:
                 wrong_position += 1
                 # removing the element found to prevent double counting
                 for j in range(4):
